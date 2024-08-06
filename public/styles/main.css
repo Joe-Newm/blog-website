@@ -1,0 +1,36 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex;
+    height:100vh;
+}
+
+#menu_container {
+    /* background-color: gray; */
+    width: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
+#body_area {
+    flex: 1;
+    display:flex;
+    justify-content: flex-start;
+    background-color: lightgray;
+    padding-left: 20px;
+}
+
+.menu_item {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
