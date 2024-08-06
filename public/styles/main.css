@@ -16,24 +16,44 @@ html, body {
     height: 100vh;
     display: flex;
     flex-direction:column;
+    background-color: lightgray;
 }
 
 #body_area {
     flex: 1;
     display:flex;
     justify-content: flex-start;
-    background-color: lightgray;
+    flex-direction: column;
     padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
 }
 
 .menu_item {
     padding: 10px;
     border: none;
-    border-bottom: 1px solid #ccc;
-    background-color: white;
+    border-bottom: 1px solid #aaa;
+    background-color: lightgray;
     text-align: left;
     width: 100%;
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+}
+
+#text {
+    padding-top: 30px;
+}
+
+.sub-button {
+    margin-top: 20px;
+    width: 200px;
+}
+
+footer {
+    border-top: 1px solid #aaa;
 }

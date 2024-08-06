@@ -18,6 +18,15 @@ app.get("/about", (req, res) => {
     res.render("about.ejs");
 });
 
+app.post('/submit-post', (req, res) => {
+    const title = req.body.title;
+    const content = req.body.content;
+    console.log('Title:', title);
+    console.log('Content:', content);
+    // Here you would typically save the post to a database
+    res.send('Post submitted successfully!');
+});
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
