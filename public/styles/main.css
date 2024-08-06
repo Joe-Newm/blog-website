@@ -2,6 +2,7 @@ html, body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: 'Lato';
 }
 
 #main {
@@ -33,4 +34,6 @@ html, body {
     text-align: left;
     width: 100%;
     box-sizing: border-box;
+    text-decoration: none;
+    color: black;
 }
