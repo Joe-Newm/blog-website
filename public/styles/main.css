@@ -1,22 +1,48 @@
-html, body {
-    height: 100vh;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Lato';
+}
+
+#nav {
+    background-color: black;
+    height: 60px;
+    margin: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo {
+    color: rgb(59, 154, 255);
+    padding-left: 40px;
+    padding-top: 8px;
+}
+h1 {
+    padding-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #main {
     display: flex;
-    height:100vh;
+    min-height:100vh;
 }
 
 #menu_container {
     /* background-color: gray; */
     width: 10%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction:column;
-    background-color: lightgray;
+    background-color: #eee;
 }
 
 #body_area {
@@ -24,7 +50,9 @@ html, body {
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
 }
 
 form {
@@ -37,17 +65,30 @@ form {
     padding: 10px;
     border: none;
     border-bottom: 1px solid #aaa;
-    background-color: lightgray;
+    background-color: #eee;
     text-align: left;
     width: 100%;
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+    padding-left: 40px;
+    font-weight: 700;
+}
+
+.blog-text {
+    width: 150vh;
+    margin-bottom: 10px;
 }
 
 #text {
     padding-top: 30px;
 }
+
+ul {
+    list-style-type: none; 
+    padding: 0;            
+    margin: 0;             
+  }
 
 .sub-button {
     margin-top: 20px;
