@@ -37,9 +37,32 @@ h2 {
     margin-bottom: 10px;
 }
 
+p {
+    line-height: 2;
+}
+
+small {
+    color: gray;
+}
+
 hr {
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
 #main {
@@ -105,11 +128,20 @@ ul {
 
 .sub-button {
     margin-top: 20px;
-    width: 200px;
+}
+button {
+    height: 40px;
+    width: 125px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 700;
 }
 
 footer {
     margin: auto;
     width: 50%;
-    height: 75px;
+    height: 80px;
+    text-align: center;
+    padding-top: 8px;
 }
